@@ -1,0 +1,40 @@
+{
+    "items": [
+        {
+            "phone": [
+                {
+                    "product" : "iPhone 8",
+                    "manufacturer" : "Apple",
+                    "releaseDate" : "2018",
+                    "price" : 499
+                },
+                {
+                    "product" : "Galaxy S9",
+                    "manufacturer" : "Samsung",
+                    "releaseDate" : "2018",
+                    "price" : 350
+                },
+                {
+                    "product" : "Xperia ZZ",
+                    "manufacturer" : "Sony",
+                    "releaseDate" : "2020",
+                    "price" : 399
+                }
+            ],
+            "laptop": [
+                {
+                    "product" : "MacBook PRO 2018",
+                    "manufacturer" : "Apple",
+                    "releaseDate" : "2017",
+                    "price" : 1999
+                },
+                {
+                    "product" : "Vaio",
+                    "manufacturer" : "Sony",
+                    "releaseDate" : "2020",
+                    "price" : 1690
+                }
+            ]
+        }
+    ]
+}

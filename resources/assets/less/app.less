@@ -1,0 +1,120 @@
+@import "./node_modules/bootstrap/less/bootstrap.less";
+
+// general
+body {
+    font-family: "Lato", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.content {
+    padding-top: 52px;
+}
+.loader {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media (min-width: @screen-tablet) {
+    .content {
+        min-height: 700px;
+    }
+}
+
+// branding
+.branding {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #CECECE;
+    background-color: #ffffff;
+}
+.branding__name {
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    &:hover {
+        text-decoration: none;
+    }
+}
+@media (min-width: @screen-tablet) {
+    .branding {
+        text-align: left;
+    }
+}
+
+// product
+.product__empty {
+    .lead;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+}
+
+.product__category {
+    .lead;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+.product__lists {
+    .clearfix();
+}
+.product__item {
+    border: 1px solid #CECECE;
+    margin-bottom: 15px;
+    border-radius: 5px
+}
+.product__item__name {
+    .lead;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #CECECE;
+}
+.product__item__description {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.product__item__footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+@media (min-width: @screen-tablet) {
+    .product__category {
+        text-align: left;
+    }
+    .product__item {
+        float: left;
+        max-width: 250px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+}
+
+// footer
+.footer {
+    border-top: 1px solid #CECECE;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+.footer__copyright {
+    text-align: center;
+}
+
+// button
+.btn--primary {
+    .btn-default;
+    min-width: 100px;
+    border-radius: 0px;
+}
